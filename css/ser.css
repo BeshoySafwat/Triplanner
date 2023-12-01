@@ -1,0 +1,39 @@
+body{
+    background-color: #E7E5F3;
+    margin: 20px 100px;
+}
+
+  div input{
+ 
+  width: 350px;
+  height: 50px;
+  background-color: white;
+  font-size: 20px;
+  margin: 20px 30px 30px 50px;
+  padding: 10px;
+  border-radius: 15px;
+  
+}
+div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.budget {
+    width: 150px;
+  height: 30px;
+  background-color: #AD90FF;
+  border-radius: 10px;
+ display: inline-block;
+position: absolute;
+right: 0px;
+
+}
+h2{
+    font-weight: bolder;
+}
+.service input:focus{
+    background-color: #CBC5FD;
+}
+.Destination input:focus{
+    background-color: #CBC5FD;
+}

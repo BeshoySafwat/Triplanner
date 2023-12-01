@@ -1,0 +1,125 @@
+body {
+	height: auto;
+}
+.bubbles span {
+	position: fixed;
+	border: 1px solid rgb(255, 255, 255 , 0.4);
+	bottom: -180px;
+	height: 25px;
+	width: 25px;
+    border-radius: 50%;
+	z-index: -1;
+	background-image: linear-gradient(
+    175deg,
+    hsl(193deg 31% 94%) 0%,
+    hsl(69deg 21% 92%) 16%,
+    hsl(48deg 44% 89%) 20%,
+    hsl(45deg 61% 87%) 25%,
+    hsl(44deg 73% 84%) 30%,
+    hsl(42deg 77% 81%) 34%,
+    hsl(35deg 67% 83%) 37%,
+    hsl(21deg 54% 85%) 41%,
+    hsl(354deg 41% 86%) 45%,
+    hsl(323deg 39% 84%) 48%,
+    hsl(309deg 39% 83%) 52%,
+    hsl(309deg 39% 83%) 55%,
+    hsl(309deg 39% 83%) 59%,
+    hsl(309deg 39% 83%) 63%,
+    hsl(309deg 39% 83%) 66%,
+    hsl(297deg 33% 82%) 70%,
+    hsl(282deg 37% 83%) 75%,
+    hsl(268deg 40% 83%) 80%,
+    hsl(256deg 43% 83%) 86%,
+    hsl(244deg 47% 83%) 100%
+);
+	/* box-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff, 0 0 200px #0072ff; */
+	animation: animate 10s linear infinite;
+    
+}
+.bubbles span:nth-child(1) {
+	left: 5%;
+	animation-delay: 0.6s;
+}
+.bubbles span:nth-child(2) {
+	left: 10%;
+	animation-delay: 3s;
+	width: 40px;
+	height: 40px;
+}
+.bubbles span:nth-child(3) {
+	left: 15%;
+	animation-delay: 2s;
+}
+.bubbles span:nth-child(4) {
+	left: 20%;
+	animation-delay: 5s;
+	width: 50px;
+	height: 50px;
+}
+.bubbles span:nth-child(5) {
+	left: 25%;
+	animation-delay: 1s;
+}
+.bubbles span:nth-child(6) {
+	left: 30%;
+	animation-delay: 7s;
+}
+.bubbles span:nth-child(7) {
+	left: 35%;
+	animation-delay: 6s;
+	width: 50px;
+	height: 50px;
+}
+.bubbles span:nth-child(8) {
+	left: 40%;
+	animation-delay: 8s;
+}
+.bubbles span:nth-child(9) {
+	left: 45%;
+	animation-delay: 6s;
+	width: 35px;
+	height: 35px;
+}
+.bubbles span:nth-child(10) {
+	left: 50%;
+	animation-delay: 4s;
+}
+.bubbles span:nth-child(11) {
+	left: 60%;
+	animation-delay: 6s;
+    width: 50px;
+	height: 50px;
+}
+.bubbles span:nth-child(12) {
+	left: 65%;
+	animation-delay: 1s;
+}
+.bubbles span:nth-child(13) {
+	left: 70%;
+	animation-delay: 8s;
+    width: 40px;
+	height: 40px;
+}
+.bubbles span:nth-child(14) {
+	left: 80%;
+	animation-delay: 9s;
+}
+.bubbles span:nth-child(15) {
+	left: 90%;
+	animation-delay: 3s;
+    width: 50px;
+	height: 50px;
+}
+@keyframes animate {
+	0% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+	80% {
+		opacity: .7;
+	}
+	100% {
+		transform: translateY(-800px) rotate(360deg);
+		opacity: 0;
+	}
+}

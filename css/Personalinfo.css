@@ -1,0 +1,301 @@
+ul{
+    list-style-type: none;
+    }
+
+.Rectangle1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(133, 83, 151, 0.34) 0%, rgba(133, 83, 151, 0) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+.Rectangle3{
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    top: 253px;
+    background: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px 100px 0px 0px;
+    }
+
+.Rectangle2 {
+    position: absolute;
+    width: 810px;
+    height: 190px;
+    left: 335px;
+    top: 185px;
+    background: #F8F7F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    }
+
+.MyProfile{
+    position: absolute;
+    width: 161px;
+    height: 153px;
+    left: 72px;
+    top: 73px;
+    font-weight: 900;
+    font-size: 40px;
+    color: #776C6C;
+    }
+
+/*------------------------------------------navigation bar and username-------------------------------------------*/
+.Profileimage{
+    position: absolute;
+    top:-80px;
+    left: 40%;
+    height: 150px;
+    width: 150px;
+    border:3px solid #fff;
+    background-color: #F8F7F7;
+    border-radius: 50%;
+    background-image: url(images/image_6483441\ \(4\).JPG);
+    background-size: contain;
+   }
+
+.Username{
+    position: absolute;
+    width: 176px;
+    height: 44px;
+    left: 330px;
+    top: 72px;
+    font-weight: 500;
+    font-size: 36px;
+    color: rgba(0, 0, 0, 0.53);
+    }
+
+.Line1{
+    position: absolute;
+    width: 805px;
+    top: 120px;
+    border: 1px solid rgba(0, 0, 0, 0.27);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+.Personalinfo {
+    position: absolute;
+    width: 137px;
+    height: 25px;
+    left: 40px;
+    top: 135px;
+    font-size: 25px;
+    color: #000000;
+    }
+
+.Favorites {
+    position: absolute;
+    width: 90px;
+    height: 25px;
+    left: 230px;
+    top: 135px;
+    font-size: 25px;
+    color: #000000;
+    }
+
+.VisitedPlaces{
+    position: absolute;
+    width: 137px;
+    height: 25px;
+    left: 420px;
+    top: 135px;
+    font-size: 24px;
+    color: #000000;
+    }
+    
+.Settings {
+    position: absolute;
+    width: 81px;
+    height: 25px;
+    left: 620px;
+    top: 135px;
+    font-size: 25px;
+    color: #000000;
+    }
+
+/*--------------------------buttons style------------------*/
+.button{
+    background-color: #f8f7f718;
+    display: inline-block;
+    height:35px;
+    width:150px;
+    border-style: none;
+    font-size:large;
+    }
+    
+.button:hover{
+    background-color: rgba(209, 144, 205, 0.264);
+    }
+    
+/*---------------------------------Personal info button----------------------------------------*/
+.Mobilerectangle {
+    position: absolute;
+    width: 660px;
+    height: 65px;
+    left: 72px;
+    top: 250px;
+    background: #f8f7f7a2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+    border: rgba(176, 40, 167, 0.264) 3px solid;
+    }
+
+.Mobilerectangle:hover{
+    background-color: #f8f7f700;
+}
+
+#mobileimg{
+    width: 36px;
+    height: 39px;
+    left: 110px;
+    padding-left: 40px;
+    opacity: 0.6;
+    }
+
+#Mobile{
+    position: absolute;
+    width: 65px;
+    height: 25px;
+    left: 85px;
+    bottom: 10px;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.267);
+    }
+
+.Emailrectangle {
+    position: absolute;
+    width: 660px;
+    height: 65px;
+    left: 72px;
+    top: 350px;
+    background: #f8f7f7a2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+    border: rgba(176, 40, 167, 0.264) 3px solid;
+    }
+
+.Emailrectangle:hover{
+    background-color: #f8f7f700;
+    }
+
+#emailimg{
+    width: 30px;
+    height: 35px;
+    left: 110px;
+    padding-left: 40px;
+    opacity: 0.3;
+    }
+
+#Email{
+    position: absolute;
+    width: 52px;
+    height: 25px;
+    left: 85px;
+    bottom: 10px;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.267);
+    }
+
+.Passwordrectangle {
+    position: absolute;
+    width: 660px;
+    height: 65px;
+    left: 72px;
+    top: 450px;
+    background: #f8f7f7a2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+    border: rgba(176, 40, 167, 0.264) 3px solid;
+    }
+
+.Passwordrectangle:hover{
+    background-color: #f8f7f700;
+    }
+
+#passwordimg{
+    width: 30px;
+    height: 35px;
+    left: 110px;
+    padding-left: 40px;
+    opacity: 0.3;
+    }
+
+#Password{
+    position: absolute;
+    width: 94px;
+    height: 25px;
+    left: 85px;
+    bottom: 10px;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.267);
+    }
+
+.Birthdayrectangle{
+    position: absolute;
+    width: 660px;
+    height: 65px;
+    left: 72px;
+    top: 550px;
+    background: #f8f7f7a2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+    border: rgba(176, 40, 167, 0.264) 3px solid;
+    }
+
+.Birthdayrectangle:hover{
+    background-color: #f8f7f700;
+    }
+
+#birthdayimg{
+    width: 30px;
+    height: 35px;
+    left: 110px;
+    padding-left: 40px;
+    opacity: 0.5;
+    }
+
+#Dateofbirth{
+    position: absolute;
+    width: 123px;
+    height: 25px;
+    left: 85px;
+    bottom: 10px;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.267);
+    }
+
+.Locationrectangle {
+    position: absolute;
+    width: 660px;
+    height: 65px;
+    left: 72px;
+    top: 650px;
+    background: #f8f7f7a2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+    border: rgba(176, 40, 167, 0.264) 3px solid;
+    }
+
+.Locationrectangle:hover{
+    background-color: #f8f7f700;
+    }
+
+#locationimg{
+    width: 30px;
+    height: 35px;
+    left: 110px;
+    padding-left: 40px;
+    opacity: 0.4;
+    }
+
+#Location{
+    position: absolute;
+    width: 84px;
+    height: 25px;
+    left: 85px;
+    bottom: 10px;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.267);
+    }
