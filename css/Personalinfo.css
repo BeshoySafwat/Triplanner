@@ -1,3 +1,39 @@
+body{
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Volkhov', serif;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: linear-gradient(
+    175deg,
+    hsl(193deg 31% 94%) 0%,
+    hsl(69deg 21% 92%) 16%,
+    hsl(48deg 44% 89%) 20%,
+    hsl(45deg 61% 87%) 25%,
+    hsl(44deg 73% 84%) 30%,
+    hsl(42deg 77% 81%) 34%,
+    hsl(35deg 67% 83%) 37%,
+    hsl(21deg 54% 85%) 41%,
+    hsl(354deg 41% 86%) 45%,
+    hsl(323deg 39% 84%) 48%,
+    hsl(309deg 39% 83%) 52%,
+    hsl(309deg 39% 83%) 55%,
+    hsl(309deg 39% 83%) 59%,
+    hsl(309deg 39% 83%) 63%,
+    hsl(309deg 39% 83%) 66%,
+    hsl(297deg 33% 82%) 70%,
+    hsl(282deg 37% 83%) 75%,
+    hsl(268deg 40% 83%) 80%,
+    hsl(256deg 43% 83%) 86%,
+    hsl(244deg 47% 83%) 100%
+    
+);
+height: 140vh;
+}
+html{
+    scroll-behavior: smooth;
+    /* height: 100%; */
+}
 ul{
     list-style-type: none;
     }
@@ -5,17 +41,13 @@ ul{
 .Rectangle1 {
     position: absolute;
     width: 100%;
-    height: 100%;
-    background: linear-gradient(180deg, rgba(133, 83, 151, 0.34) 0%, rgba(133, 83, 151, 0) 100%);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
 
 .Rectangle3{
     position: absolute;
     width: 100%;
-    height: 200%;
     top: 253px;
-    background: #FFFEFE;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 100px 100px 0px 0px;
     }
@@ -23,10 +55,8 @@ ul{
 .Rectangle2 {
     position: absolute;
     width: 810px;
-    height: 190px;
     left: 335px;
     top: 185px;
-    background: #F8F7F7;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 100px;
     }

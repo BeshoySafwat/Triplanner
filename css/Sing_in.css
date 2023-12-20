@@ -1,0 +1,88 @@
+
+
+.sign_in {
+    background-color: hsl(0, 20%, 98%);
+    height: 500px;
+    width: 600px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 62px;
+    -webkit-border-radius: 62px;
+    -moz-border-radius: 62px;
+    -ms-border-radius: 62px;
+    -o-border-radius: 62px;
+    flex-wrap: nowrap;
+}
+
+.sign_in h1{
+    width: 100px;
+}
+.sign_in div {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+input {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    outline: none;
+}
+
+span {
+    position: absolute;
+    left: 0.1;
+    padding: 5px;
+    font-size: 1em;
+    text-transform: uppercase;
+    pointer-events: none;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+input:valid~span,
+input:focus~span {
+    color: #222;
+    transform: translateX(-30px) translateY(-19px);
+    -webkit-transform: translateX(-30px) translateY(-19px);
+    -moz-transform: translateX(-30px) translateY(-19px);
+    -ms-transform: translateX(-30px) translateY(-19px);
+    -o-transform: translateX(-30px) translateY(-19px);
+    padding: 0 10px;
+    background-color: white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+button {
+    background-color: hsl(271, 62%, 66%);
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 20px;
+}
+.sign_in a{
+    width: 200px;
+    padding-left: 9px;
+}

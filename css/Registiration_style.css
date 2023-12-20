@@ -1,6 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
 body {
-  margin: 50px;
-  margin-left: 48px;
+  width: 100%;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,11 +32,52 @@ body {
       hsl(268deg 40% 83%) 75%,
       hsl(256deg 43% 83%) 85%,
       hsl(244deg 47% 83%) 100%);
-  height: 700px;
+  height: 100vh;
+}
+.container {
+  background-color: hsl(0, 20%, 98%);
+  height: 500px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 62px;
+  perspective: 600px;
 }
 
+.box {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+  transform-origin: right center;
+  width: 100%;
+  height: 100%;
+}
+
+.container.flipped .box {
+  transform: translateX(-100%) rotateY(-180deg);
+}
+
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backface-visibility: hidden;
+}
+
+.front {
+  z-index: 2;
+}
+
+.back {
+  transform: rotateY(-180deg);
+  z-index: 1;
+}
 .Sign_up {
-  background-color: hsl(0, 20%, 98%);
   height: 500px;
   width: 600px;
   display: flex;
@@ -43,7 +91,6 @@ body {
   -ms-border-radius: 62px;
   -o-border-radius: 62px;
 }
-
 .Sign_up div {
   display: flex;
   flex-flow: column wrap;
@@ -111,9 +158,23 @@ button {
   -o-border-radius: 10px;
   margin: 20px;
 }
-
-a {
+.sign{
   text-decoration: none;
+  color: #222;
+}
+.enter {
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.enter:hover{
+    background-color: #eceaea;
+    border: 1px solid;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+    margin-bottom: 3px;
+    font-weight: bold;
 }
 
 .bubbel1 {

@@ -5,40 +5,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/Registiration_style.css">
-    <link rel="icon" href="">
+    <link rel="stylesheet" href="css/Sing_in.css">
+    <!-- Icon of Page -->
+    <link rel="webpage icon" type="png" href="images/WhatsApp Image 2023-12-20 at 19.39.46_b1309ef8.jpg">  
     <title>Sign up</title>
 </head>
 
 <body>
-    <div class="Sign_up">
-        <div class="inputs">
-
-            <div class="username">
-            <input type="text" id="username" required>
-            <span for="username">Username</span>
+    <div class="container">
+        <div class="box">
+            <div class="Sign_up face front">
+                <div class="inputs ">
+                    <div class="username">
+                    <input type="text" id="username" required>
+                    <span for="username">Username</span>
+                    </div>
+                    <div class="password">
+                    <input type="password" id="password" required>
+                    <span for="password">password</span>
+                    </div>
+                    <div class="Email">
+                    <input type="email" id="email" required>
+                    <span for="email">Email</span>
+                    </div>
+                    <div class="phone">
+                    <input type="text" id="phone" required>
+                    <span for="phone">phone</span>
+                    </div>
+                    <button><a class="sign" href="Personal information.html">Sign up</a> </button>
+                    <br>
+                    <a class="enter" >You Already have an account?</a>
+                </div>
             </div>
-
-            <div class="password">
-            <input type="password" id="password" required>
-            <span for="password">password</span>
-            </div>
-
-            <div class="Email">
-            <input type="email" id="email" required>
-            <span for="email">Email</span>
-            </div>
-
-            <div class="phone">
-            <input type="text" id="phone" required>
-            <span for="phone">phone</span>
+            <div class="sign_in  face back">
+                <h1>Sign in </h1>
+                <br>
+                <div class="Email">
+                    <input type="email" id="email" required>
+                    <span for="email">Email</span>
+                </div>
+                <br>
+                <div class="password">
+                    <input type="password" id="password" required>
+                    <span for="password">password</span>
+                </div>
+                    <button > <a class="sign" href="Personal information.html">Sign in</a></button>
+                    <a class="enter" >You Don't have an account?</a>
             </div>
         </div>
-        <button>Sign up</button>
-
-        <br>
-        <br>
-        <br>
-        <a href="">You Already have an account?</a>
     </div>
     <div class="bubbel1">
         <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
@@ -171,6 +185,7 @@
             </path>
         </svg>
     </div>
+    <script src="JavaScript/main.js"></script>
 </body>
 
 </html>

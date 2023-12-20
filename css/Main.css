@@ -4,6 +4,7 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     text-transform: capitalize;
+    
 }
 body{
     position: relative;
@@ -428,3 +429,53 @@ ul{
     }
 }
 /* End section3 */
+/* Start Footer */
+footer{
+    padding-top:  10px;
+    padding-bottom:  10px;
+    background-image: url(../images/pexels-nandhu-kumar-450441.jpg);
+    background-size: cover;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+footer::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgb(0 0 0 / 40%);
+}
+footer .container{
+    position: relative;
+}
+footer .project{
+    display: flex;
+}
+footer img{
+    margin: 0 0 20px;
+    width: 50px;
+}
+
+footer p:not(.copy-right){
+    text-transform: uppercase;
+    padding: 20px;
+    border-bottom: 1px solid #777;
+    font-size: 22px;
+    width: fit-content;
+    margin: 20px auto;
+}
+footer .social-icon a{
+    margin: 0 15px;
+    color: white;
+}
+footer .social-icon a:hover{
+    color: #8ecbeb;
+}
+footer .copy-right span{
+    font-weight: bold;
+    color: white;
+}
+/* End Footer */
